@@ -82,3 +82,9 @@ Inversión de dependencias para evitar acoplamientos innecesarios.
 DTOs, para no exponer directamente las entidades del dominio.
 AutoMapper, para automatizar el mapeo entre entidades y DTOs.
 Excepciones personalizadas, para mejorar la interación con el usuario.
+
+## Probar la API con Postman
+
+Descargar la colección desde [aquí](https://github.com/gaservin/BilogChallenge/blob/main/Bilog%20Challenge.postman_collection.json).
+
+
