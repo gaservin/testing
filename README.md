@@ -16,20 +16,20 @@ API para la gestión de especialidades médicas.
 
 El proyecto está estructurado en múltiples capas para asegurar separación de responsabilidades, escalabilidad y mantenimiento a largo plazo:
 
-# API:
+# API
 - Punto de entrada de la aplicación.
 - Contiene los controladores.
 - Gestiona las solicitudes HTTP y retorna respuestas adecuadas.
 
-# APPLICATION:
+# APPLICATION
 - Contiene la lógica de negocio.
 - Define interfaces, servicios, DTOs, mapeos, validaciones y excepciones.
 - Implementa validaciones de unicidad y control de concurrencia mediante rowversion.
 
-# DOMAIN:
+# DOMAIN
 - Modela la entidad principal del sistema.
 
-# INFRAESTRUCTURE:
+# INFRAESTRUCTURE
 - Gestiona la persistencia y comunicación con la base de datos.
 - Implementa los repositorios definidos en Application.
 
