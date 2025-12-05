@@ -29,30 +29,11 @@ El proyecto está estructurado en múltiples capas para asegurar separación de 
 # Domain
 - Modela la entidad principal del sistema.
 
-# Ifrastructure
+# Infrastructure
 - Gestiona la persistencia y comunicación con la base de datos.
 - Implementa los repositorios definidos en Application.
 
-/Api
-└── Controllers
-
-/Application
-├── DTOs
-├── Exceptions
-├── Interfaces
-│   ├── Repositories
-│   └── Services
-├── Services
-└── Mappings
-
-/Domain
-└── Entities
-
-/Infrastructure
-├── Persistence
-│   └── Repositories
-└── DbContext
-
+<img width="326" height="385" alt="image" src="https://github.com/user-attachments/assets/27410df5-87b5-4c74-908b-e8a12c20d327" />
 
 # Configuración del proyecto
 
