@@ -56,10 +56,6 @@ Editar appsettings.json: agregar
 - dotnet build
 - dotnet run
 
-La API quedará disponible en:
-http://localhost:5000
-https://localhost:5001
-
 ## Decisiones de diseño
 
 Arquitectura con separación de responsabilidades en capas.
