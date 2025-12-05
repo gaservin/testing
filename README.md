@@ -21,38 +21,42 @@ El proyecto está estructurado en múltiples capas para asegurar separación de 
 - Contiene los controladores.
 - Gestiona las solicitudes HTTP y retorna respuestas adecuadas.
 
-# APPLICATION
+# Application
 - Contiene la lógica de negocio.
 - Define interfaces, servicios, DTOs, mapeos, validaciones y excepciones.
 - Implementa validaciones de unicidad y control de concurrencia mediante rowversion.
 
-# DOMAIN
+# Domain
 - Modela la entidad principal del sistema.
 
-# INFRAESTRUCTURE
+# Ifrastructure
 - Gestiona la persistencia y comunicación con la base de datos.
 - Implementa los repositorios definidos en Application.
 
 /Api
-  └── Controllers
+└── Controllers
+
 /Application
-  ├── DTOs
-  ├── Exceptions
-  ├── Interfaces
-  │     ├── Repositories
-  │     └── Services
-  ├── Services
-  └── Mappings
+├── DTOs
+├── Exceptions
+├── Interfaces
+│   ├── Repositories
+│   └── Services
+├── Services
+└── Mappings
+
 /Domain
-  └── Entities
+└── Entities
+
 /Infrastructure
-  ├── Persistence
-  │     └── Repositories
-  └── DbContext
+├── Persistence
+│   └── Repositories
+└── DbContext
+
 
 # Configuración del proyecto
 
-# Requisitos
+## Requisitos
 - .NET 8 SDK
 - SQL Server
 - Cadena de conexión
